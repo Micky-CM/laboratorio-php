@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(332deg, rgba(0,150,255,1) 60%, rgba(114,255,255,1) 100%);
+    background-repeat: no-repeat;
+    gap: 4rem;
+    padding: 4rem 8rem;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.contenedor-calculadora, .contenedor-resultado{
+    display: flex;
+    flex-direction: column;
+    width: 36rem;
+    background: linear-gradient(332deg, rgba(88,0,255,1) 44%, rgba(0,150,255,1) 100%);
+    border-radius: 1rem;
+    border: none;
+    padding: 4rem;
+}
+.form-fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    margin-bottom: 1rem;
+}
+.form-fila label{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.form-fila input, .form-fila select{
+    width: 10rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 8px;
+}
+.btn{
+    background: #0096FF;
+    color: white;
+    width: 10rem;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    padding: 7px;
+    margin-bottom: 3rem;
+}
+.btn:hover{
+    scale: 1.1;
+}
+.contenedor-resultado{
+    align-items: center;
+}
+.resultado{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.resultado td{
+    border: 2px solid white;
+    padding: .5rem;
+}
